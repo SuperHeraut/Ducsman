@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Ducsman Hotel</title>
     <link rel="stylesheet" href="sass/main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
 </head>
 
 <body>
@@ -32,38 +35,40 @@
     </div>
 
     <div id="main-content">
-        <section class="contact-info-section">
-            <h2>Ducsman</h2>
-            <p>Nous sommes à votre disposition pour toute question relative à votre séjour ou pour vous préparer le plus
-                luxueux des voyages.</p>
-            <p><strong>Informations & Réservations</strong></p>
-            <p>Téléphone : <a href="tel:0320010203">03 20 01 02 03</a></p>
-            <p>Email : <a href="mailto:info@ducsman-group.com">info@ducsman-group.com</a></p>
-            <p>Adresse : 23 avenue des Nations Unies, 75016 Paris</p>
+        <section class="top">
+            <section class="contact-info-section">
+                <h2>Ducsman</h2>
+                <p>Nous sommes à votre disposition pour toute question relative à votre séjour ou pour vous préparer le
+                    plus
+                    luxueux des voyages.</p>
+                <p><strong>Informations & Réservations</strong></p>
+                <p>Téléphone : <a href="tel:0320010203">03 20 01 02 03</a></p>
+                <p>Email : <a href="mailto:info@ducsman-group.com">info@ducsman-group.com</a></p>
+                <p>Adresse : 23 avenue des Nations Unies, 75016 Paris</p>
+            </section>
+
+            <section class="contact-form-section">
+                <h2>Restons en contact</h2>
+                <form action="#" method="post">
+                    <label for="name">Votre nom *</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Votre e-mail *</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Votre numéro de téléphone *</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="subject">Sujet *</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
         </section>
-
-        <section class="contact-form-section">
-            <h2>Restons en contact</h2>
-            <form action="#" method="post">
-                <label for="name">Votre nom *</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Votre e-mail *</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="phone">Votre numéro de téléphone *</label>
-                <input type="tel" id="phone" name="phone" required>
-
-                <label for="subject">Sujet *</label>
-                <input type="text" id="subject" name="subject" required>
-
-                <label for="message">Message *</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Envoyer</button>
-            </form>
-        </section>
-
         <section class="map-section">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.902155280022!2d2.287592815677735!3d48.86061167928771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdf3e04ab0b%3A0x216e1b3e9bf22de0!2sAv.%20des%20Nations%20Unies%2C%2075016%20Paris%2C%20France!5e0!3m2!1sfr!2sfr!4v1636033139827!5m2!1sfr!2sfr"
@@ -87,14 +92,11 @@
                 <a href="#">Instagram</a>
                 <a href="#">Pinterest</a>
             </div>
-
         </section>
         <div class="legal">
-
             <a href="#">Mentions légales</a> |
             <a href="#">Conditions Générales de Ventes</a> |
             <a href="#">Politique de confidentialité</a>
-
             <p>© Copyright 2023 - Ducsman Group</p>
         </div>
     </footer>
