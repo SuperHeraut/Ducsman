@@ -6,6 +6,157 @@
   font-family: themify;
   src: url(../fonts/themify.ttf);
 }
+html {
+  font-size: 16px;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside, canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav, output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.stars {
+  color: #e3a652;
+}
+
+* {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -25,6 +176,9 @@ body {
   text-align: center;
   color: #e3a652;
 }
+#sidebar .logo p {
+  color: white;
+}
 #sidebar nav ul {
   list-style: none;
   padding: 0;
@@ -35,7 +189,7 @@ body {
 }
 #sidebar nav ul li a {
   text-decoration: none;
-  color: white;
+  color: #929292;
   font-weight: 400;
   transition: color 0.3s;
 }
@@ -48,7 +202,7 @@ body {
 }
 #sidebar .contact-info {
   margin-top: 50px;
-  color: white;
+  color: #929292;
 }
 #sidebar .contact-info a {
   color: #e3a652;
@@ -69,11 +223,14 @@ body {
   border-radius: 10px;
 }
 .contact-info-section h2 {
-  color: #e3a652;
+  color: white;
   margin-bottom: 10px;
 }
+.contact-info-section p {
+  color: #929292;
+}
 .contact-info-section a {
-  color: #e3a652;
+  color: #ab8a62;
   text-decoration: none;
 }
 .contact-info-section a:hover {
@@ -87,7 +244,7 @@ body {
   margin-bottom: 40px;
 }
 .contact-form-section h2 {
-  color: #e3a652;
+  color: white;
   margin-bottom: 20px;
 }
 .contact-form-section form {
@@ -97,7 +254,7 @@ body {
 .contact-form-section form label {
   margin-bottom: 5px;
   font-weight: 700;
-  color: white;
+  color: #929292;
 }
 .contact-form-section form input,
 .contact-form-section form textarea {
