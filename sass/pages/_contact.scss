@@ -16,6 +16,10 @@ body {
     .logo {
         text-align: center;
         color: $goldstars;
+
+        p {
+            color: $whiteletters;
+        }
     }
 
     nav ul {
@@ -28,7 +32,7 @@ body {
 
             a {
                 text-decoration: none;
-                color: $whiteletters;
+                color: $greyletters;
                 font-weight: 400;
                 transition: color 0.3s;
 
@@ -46,7 +50,7 @@ body {
 
     .contact-info {
         margin-top: 50px;
-        color: $whiteletters;
+        color: $greyletters;
 
         a {
             color: $goldstars;
@@ -69,12 +73,16 @@ body {
     border-radius: 10px;
 
     h2 {
-        color: $goldstars;
+        color: $whiteletters;
         margin-bottom: 10px;
     }
 
+    p {
+        color: $greyletters;
+    }
+
     a {
-        color: $goldstars;
+        color: $goldletters;
         text-decoration: none;
 
         &:hover {
@@ -90,7 +98,7 @@ body {
     margin-bottom: 40px;
 
     h2 {
-        color: $goldstars;
+        color: $whiteletters;
         margin-bottom: 20px;
     }
 
@@ -101,7 +109,7 @@ body {
         label {
             margin-bottom: 5px;
             font-weight: 700;
-            color: $whiteletters;
+            color: $greyletters;
         }
 
         input,
