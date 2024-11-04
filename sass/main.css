@@ -9,7 +9,7 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  color: #ab8a62;
+  color: white;
   background-color: #1b1b1b;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 #sidebar nav ul li a {
   text-decoration: none;
-  color: #ab8a62;
+  color: white;
   font-weight: 400;
   transition: color 0.3s;
 }
@@ -48,7 +48,7 @@ body {
 }
 #sidebar .contact-info {
   margin-top: 50px;
-  color: #ab8a62;
+  color: white;
 }
 #sidebar .contact-info a {
   color: #e3a652;
@@ -97,16 +97,16 @@ body {
 .contact-form-section form label {
   margin-bottom: 5px;
   font-weight: 700;
-  color: #ab8a62;
+  color: white;
 }
 .contact-form-section form input,
 .contact-form-section form textarea {
   margin-bottom: 20px;
   padding: 10px;
-  border: 1px solid #222222;
+  border: 1px solid rgb(59.5, 59.5, 59.5);
   border-radius: 5px;
-  background-color: #222222;
-  color: #ab8a62;
+  background-color: rgb(46.75, 46.75, 46.75);
+  color: white;
   outline: none;
   transition: border-color 0.3s;
 }
@@ -138,7 +138,7 @@ footer {
   padding: 20px;
   background-color: #1e1e1e;
   text-align: center;
-  color: #ab8a62;
+  color: #929292;
 }
 footer nav ul {
   list-style: none;
@@ -149,7 +149,7 @@ footer nav ul {
 }
 footer nav ul li a {
   text-decoration: none;
-  color: #ab8a62;
+  color: #929292;
   transition: color 0.3s;
 }
 footer nav ul li a:hover {
