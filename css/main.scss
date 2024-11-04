@@ -1,0 +1,16 @@
+$black1: #1b1b1bff;
+$black2: #1e1e1eff;
+$black3: #222222ff;
+$goldletters: #ab8a62ff;
+$goldstars: #e3a652ff;
+@font-face {
+	font-family: Flaticon;
+	src: url(../fonts/Flaticon.ttf);
+}
+@font-face {
+	font-family: themify;
+	src: url(../fonts/themify.ttf);
+}
+html{
+	background-color: $black1;
+}
