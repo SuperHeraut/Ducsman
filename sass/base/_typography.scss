@@ -1,3 +1,16 @@
 .stars{
 	color: $goldstars;
 }
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	color: $whiteletters;
+	background-color: $black1;
+}
+#presentation{
+	h1{
+		font-family: themify;
+		font-size: 2rem;
+		text-transform: uppercase;
+	}
+}
