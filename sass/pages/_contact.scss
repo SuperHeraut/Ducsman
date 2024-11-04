@@ -1,0 +1,169 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: $goldletters;
+    background-color: $black1;
+}
+
+#sidebar {
+    width: 280px;
+    background-color: $black2;
+    padding: 20px;
+    position: fixed;
+    height: 100vh;
+    box-sizing: border-box;
+
+    .logo {
+        text-align: center;
+        color: $goldstars;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 40px;
+
+        li {
+            margin: 20px 0;
+
+            a {
+                text-decoration: none;
+                color: $goldletters;
+                font-weight: 400;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: $goldstars;
+                }
+
+                &.active {
+                    color: $goldstars;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    .contact-info {
+        margin-top: 50px;
+        color: $goldletters;
+
+        a {
+            color: $goldstars;
+            text-decoration: none;
+        }
+    }
+}
+
+#main-content {
+    margin-left: 300px;
+    padding: 40px;
+    box-sizing: border-box;
+    width: calc(100% - 300px);
+}
+
+.contact-info-section {
+    margin-bottom: 40px;
+    background-color: $black2;
+    padding: 20px;
+    border-radius: 10px;
+
+    h2 {
+        color: $goldstars;
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: $goldstars;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.contact-form-section {
+    background-color: $black3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+
+    h2 {
+        color: $goldstars;
+        margin-bottom: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            margin-bottom: 5px;
+            font-weight: 700;
+            color: $goldletters;
+        }
+
+        input,
+        textarea {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid $black3;
+            border-radius: 5px;
+            background-color: $black3;
+            color: $goldletters;
+            outline: none;
+            transition: border-color 0.3s;
+
+            &:focus {
+                border-color: $goldstars;
+            }
+        }
+
+        button {
+            padding: 15px;
+            background-color: $goldstars;
+            color: $black1;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 700;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: lighten($goldstars, 10%);
+            }
+        }
+    }
+}
+
+.map-section iframe {
+    border-radius: 10px;
+    border: 2px solid $black2;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: $black2;
+    text-align: center;
+    color: $goldletters;
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        li a {
+            text-decoration: none;
+            color: $goldletters;
+            transition: color 0.3s;
+
+            &:hover {
+                color: $goldstars;
+            }
+        }
+    }
+}
