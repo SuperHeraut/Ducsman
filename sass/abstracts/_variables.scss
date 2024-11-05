@@ -15,3 +15,6 @@ $whiteletters: #ffffffff;
 	font-family: themify;
 	src: url(../fonts/themify.ttf);
 }
+%uppercase { 
+	text-transform: uppercase;
+}

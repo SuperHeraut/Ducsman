@@ -1,9 +1,16 @@
 #presentation{
-	background-image: url(../../img/rooms/1.jpg);
+	width: 100%;
+	background-color: transparent;
+	@extend %uppercase;
+	background-image: url(../../img/rooms/2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	button{
 		color: $whiteletters;
 		outline: none;
 		border: none;
+		@extend %uppercase;
+		font-family: Flaticon;
 	}
-	text-transform: capitalize;
 }
