@@ -1,3 +1,4 @@
+
 #presentation{
 	width: 100%;
 	display: flex;
@@ -7,7 +8,7 @@
 	text-align: center;
 	height: 75vh;
 	@extend %uppercase;
-	background-image: url(../../img/slider/2.jpg);
+	background-image: url(../img/slider/2.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -29,4 +30,7 @@
 	img{
 		width: 40%;
 	}
+}
+.lighterblack{
+	background-color: $black3;
 }
