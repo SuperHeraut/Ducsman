@@ -7,3 +7,76 @@
     height: 50%;
     width: 70%;
 }
+
+.text {
+    margin-left: 300px;
+}
+
+.chek {
+    display: flex;
+    flex-direction: row
+}
+
+.chekin {
+    margin-right: 160px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 25px;
+}
+
+.title {
+    color: $goldstars;
+}
+
+img {
+    margin-bottom: 50px;
+}
+
+.text-image {
+    position: absolute; // Positionne le texte en superposition
+    top: 50%; // Centre verticalement
+    left: 65%; // Centre horizontalement
+    transform: translate(-50%, -50%); // Centrer parfaitement avec une transformation
+    color: white; // Couleur du texte
+    font-size: 20px; // Taille du texte
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    background-color: #ffffff;
+    background: none;
+    padding: 0 50px;
+
+
+}
+
+.texte {
+    background: none;
+    font-size: 60px;
+    font-style: italic;
+
+
+}
+
+.texte1 {
+    background: none;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.back-image {
+    background-image: url('../img/rooms/4.jpg');
+    background-position: center;
+    width: 100%;
+    margin-left: 100px;
+    height: 700px;
+    padding: 40px;
+
+
+
+}
