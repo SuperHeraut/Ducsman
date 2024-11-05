@@ -1,5 +1,9 @@
 css/
 
+sass/main.css
+
+sass/main.css.map
+
 .vscode/
 
 .DS_Store
