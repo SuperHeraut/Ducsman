@@ -1,6 +1,5 @@
 #sidebar {
     width: 280px;
-    background-color: $black2;
     padding: 20px;
     position: fixed;
     height: 100vh;
@@ -57,6 +56,7 @@
     padding: 40px;
     box-sizing: border-box;
     width: calc(100% - 300px);
+    background-color: $black3;
 
     .top {
         display: flex;
@@ -67,7 +67,6 @@
 
 .contact-info-section {
     margin-bottom: 40px;
-    background-color: $black2;
     padding: 20px;
     border-radius: 10px;
 
@@ -91,7 +90,6 @@
 }
 
 .contact-form-section {
-    background-color: $black3;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 40px;
@@ -136,10 +134,9 @@
             cursor: pointer;
             font-weight: 700;
             transition: background-color 0.3s;
+            width: 25%;
 
-            &:hover {
-                background-color: lighten($goldstars, 10%);
-            }
+
         }
     }
 }
