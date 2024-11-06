@@ -14,6 +14,7 @@ aside{
 }
 section{
 	width: calc(100% - 280px);
+	padding: 5rem;
 }
 .flexhor, .fleximages{
 	display: flex;
@@ -37,16 +38,19 @@ section{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: transparent;
+
 	button{
 		color: $whiteletters;
 		outline: none;
 		border: none;
 		@extend %uppercase;
 	}
+
 	h1{
 		font-size: 3rem;
 	}
 }
+
 .fleximages{
 	display: flex;
 	flex-direction: column;
@@ -57,9 +61,11 @@ section{
 		width: 40%;
 	}
 }
+
 .lighterblack{
 	background-color: $black3;
 }
+
 .button{
 	width: fit-content;
 	padding: 1rem;
@@ -69,16 +75,20 @@ section{
 	outline-width: 1px;
 	outline-style: solid;
 }
+
 .flexhor{
 	width: 100%;
 	box-sizing: border-box;
+
 	.half{
 		width: 50%;
 	}
+
 	.spaceven{
 		justify-content: space-evenly;
 	}
 }
+
 #services{
 	box-sizing: border-box;
 	div{
@@ -93,30 +103,95 @@ section{
 		}
 	}
 }
+
 footer{
 	a{
 		color: $whiteletters;
 	}
 }
-.moreservices{
-	img{
-		max-width: 100px;
-		max-height: 100px;
-	}
-}
+
 .checkicon{
 	max-width: 2rem;
 	max-height: 2rem;
 }
+
 .third{
 	display: flex;
 	width: 30%;
 	flex-direction: column;
 	text-align: left;
 }
+
 #emailto{
 	text-decoration-line: underline;
 	text-decoration-color: $goldletters;
 	text-decoration-style: solid;
 	text-decoration-thickness: 2px; 
+}
+
+.room{
+	width: 30%;
+}
+.room2{
+	width: 45%;
+}
+
+#junior{
+	background-image: url(../img/rooms/1.jpg);
+}
+#family{
+	background-image: url(../img/rooms/2.jpg);
+}
+#double{
+	background-image: url(../img/rooms/3.jpg);
+}
+#deluxe{
+	background-image: url(../img/rooms/4.jpg);
+}
+#superior{
+	background-image: url(../img/rooms/7.jpg);
+}
+
+.moreservices{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	h2{
+		display: block;
+		width: 100%;
+	}
+	h4{
+		font-family: Merriweather;
+	}
+	div{
+		flex-direction: column;
+		width: 33%;
+		border: solid 1px #92929280;
+	}
+	img{
+		max-width: 100px;
+		max-height: 100px;
+	}
+	p{
+		color: $greyletters;
+	}
+}
+#aboutourhotel{
+	width: 50%;
+	h4{
+		font-family: Merriweather;
+		font-size: 1.5rem;
+	}
+	p{
+		color: $greyletters;
+		width: 75%;
+	}
+}
+#contactus{
+	width: 33%;
+	h4{
+		font-family: Merriweather;
+		font-size: 1.5rem;
+	}
+
 }
