@@ -34,15 +34,17 @@ h3 {
     color: $goldstars;
 }
 
-img {
+.stars {
     margin-bottom: 50px;
+    position: absolute; // Positionne le texte en superposition
+    top: 32%; // Centre verticalement
+    left: 55%; // Centre horizontalement
+    transform: translate(-50%, -50%);
+
 }
 
 .text-image {
-    position: absolute; // Positionne le texte en superposition
-    top: 50%; // Centre verticalement
-    left: 65%; // Centre horizontalement
-    transform: translate(-50%, -50%); // Centrer parfaitement avec une transformation
+    // Centrer parfaitement avec une transformation
     color: white; // Couleur du texte
     font-size: 20px; // Taille du texte
     font-weight: bold;
@@ -58,6 +60,10 @@ img {
     background: none;
     font-size: 60px;
     font-style: italic;
+    position: absolute; // Positionne le texte en superposition
+    top: 45%; // Centre verticalement
+    left: 55%; // Centre horizontalement
+    transform: translate(-50%, -50%);
 
 
 }
@@ -65,16 +71,29 @@ img {
 .texte1 {
     background: none;
     font-size: 13px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute; // Positionne le texte en superposition
+    top: 38%; // Centre verticalement
+    left: 55%; // Centre horizontalement
+    transform: translate(-50%, -50%);
 
+
+}
+
+.texte2 {
+    background: none;
+    font-size: 60px;
+    position: absolute; // Positionne le texte en superposition
+    top: 55%; // Centre verticalement
+    left: 55%; // Centre horizontalement
+    transform: translate(-50%, -50%);
 }
 
 .back-image {
     background-image: url('../img/rooms/4.jpg');
     background-position: center;
     width: 100%;
-    margin-left: 100px;
-    height: 700px;
+
+    height: 600px;
     padding: 40px;
 
 
