@@ -10,6 +10,40 @@
 
 .text {
     margin-left: 300px;
+
+    p {
+        color: gray;
+        line-height: 2;
+    }
+
+    .chambre {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .ducs {
+        margin-right: 150px;
+
+        .hotel {
+            line-height: 2;
+
+        }
+    }
+
+    .amen {
+
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .liste-amen {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            color: gray;
+        }
+    }
 }
 
 .chek {
@@ -19,29 +53,41 @@
 
 .chekin {
     margin-right: 160px;
+
+    .check {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    padding-bottom: 2rem;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+    font-weight: 2;
+    font-style: normal;
 }
 
 h3 {
-    font-style: italic;
+
     font-size: 25px;
+    font-family: "Merriweather", serif;
+    font-weight: 2;
+    font-style: normal;
+    color: white;
 }
 
 .title {
     color: $goldstars;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.stars {
-    margin-bottom: 50px;
-    position: absolute; // Positionne le texte en superposition
-    top: 32%; // Centre verticalement
-    left: 55%; // Centre horizontalement
-    transform: translate(-50%, -50%);
-
-}
 
 .text-image {
     // Centrer parfaitement avec une transformation
@@ -53,6 +99,18 @@ h3 {
     background: none;
     padding: 0 50px;
 
+    p {
+        color: white;
+    }
+
+    .star {
+        margin-bottom: 50px;
+        position: absolute; // Positionne le texte en superposition
+        top: 23%; // Centre verticalement
+        left: 55%; // Centre horizontalement
+        transform: translate(-50%, -50%);
+        color: $goldstars;
+    }
 
 }
 
@@ -61,10 +119,12 @@ h3 {
     font-size: 60px;
     font-style: italic;
     position: absolute; // Positionne le texte en superposition
-    top: 45%; // Centre verticalement
+    top: 35%; // Centre verticalement
     left: 55%; // Centre horizontalement
     transform: translate(-50%, -50%);
-
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
@@ -72,30 +132,46 @@ h3 {
     background: none;
     font-size: 13px;
     position: absolute; // Positionne le texte en superposition
-    top: 38%; // Centre verticalement
+    top: 28%; // Centre verticalement
     left: 55%; // Centre horizontalement
     transform: translate(-50%, -50%);
-
-
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .texte2 {
     background: none;
     font-size: 60px;
     position: absolute; // Positionne le texte en superposition
-    top: 55%; // Centre verticalement
+    top: 45%; // Centre verticalement
     left: 55%; // Centre horizontalement
     transform: translate(-50%, -50%);
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+
 }
 
 .back-image {
     background-image: url('../img/rooms/4.jpg');
     background-position: center;
     width: 100%;
-
-    height: 600px;
+    height: 700px;
     padding: 40px;
+}
 
+p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
 
+}
 
+button {
+    background-color: rgb(46, 40, 40);
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 220px;
 }

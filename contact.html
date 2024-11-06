@@ -12,102 +12,138 @@
 </head>
 
 <body>
-    <div id="sidebar">
-        <div class="logo">
-            <h1>DUCSMAN</h1>
-            <p>Dormez comme jamais</p>
+    <div class="container">
+        <div id="sidebar">
+            <div class="logo">
+                <h1>DUCSMAN</h1>
+                <p>Dormez comme jamais</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À Propos</a></li>
+                    <li><a href="#">Chambres & Suites</a></li>
+                    <li><a href="#">Restaurant</a></li>
+                    <li><a href="#">Centre de Bien-Être</a></li>
+                    <li><a href="#">Actualité</a></li>
+                    <li><a href="#" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <p>Informations & Réservations</p>
+                <p><a href="tel:0320010203">03 20 01 02 03</a></p>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">À Propos</a></li>
-                <li><a href="#">Chambres & Suites</a></li>
-                <li><a href="#">Restaurant</a></li>
-                <li><a href="#">Centre de Bien-Être</a></li>
-                <li><a href="#">Actualité</a></li>
-                <li><a href="#" class="active">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="contact-info">
-            <p>Informations & Réservations</p>
-            <p><a href="tel:0320010203">03 20 01 02 03</a></p>
-        </div>
-    </div>
 
-    <div id="main-content">
-        <section class="top">
-            <section class="contact-info-section">
-                <h2>Ducsman</h2>
-                <p>Nous sommes à votre disposition pour toute question relative à votre séjour ou pour vous préparer le
-                    plus
-                    luxueux des voyages.</p>
-                <p><strong>Informations & Réservations</strong></p>
-                <p>Téléphone : <a href="tel:0320010203">03 20 01 02 03</a></p>
-                <p>Email : <a href="mailto:info@ducsman-group.com">info@ducsman-group.com</a></p>
-                <p>Adresse : 23 avenue des Nations Unies, 75016 Paris</p>
+        <main class="main-content">
+            <div class="flex-contact">
+                <section class="contact-info-section">
+                    <h2>Ducsman</h2>
+                    <p>Nous sommes à votre disposition pour toute question relative à votre séjour ou pour vous préparer
+                        le
+                        plus luxueux des voyages.</p>
+
+                    <div class="contact-item">
+                        <i class="flaticon-call"></i>
+                        <div>
+                            <h3>Informations & Réservation</h3>
+                            <p>03 20 01 02 03</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="flaticon-envelope"></i>
+                        <div>
+                            <h3>E-mail</h3>
+                            <p><a href="mailto:info@ducsman-group.com">info@ducsman-group.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="flaticon-location"></i>
+                        <div>
+                            <h3>Adresse</h3>
+                            <p>23 avenue des Nations Unies<br>75001 Paris</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="contact-form-section">
+                    <h2>Restons en contact</h2>
+                    <form class="form-contact" action="/submit" method="post">
+                        <div class="form-field">
+                            <label for="nom">Votre nom</label>
+                            <input type="text" id="nom" name="nom" required placeholder="Votre nom *">
+                        </div>
+
+                        <div class="form-field">
+                            <label for="email">Votre e-mail</label>
+                            <input type="email" id="email" name="email" required placeholder="Votre e-mail *">
+                        </div>
+
+                        <div class="form-field">
+                            <label for="phone">Votre numéro de téléphone</label>
+                            <input type="tel" id="phone" name="phone" required
+                                placeholder="Votre numéro de téléphone *">
+                        </div>
+
+                        <div class="form-field">
+                            <label for="sujet">Sujet</label>
+                            <input type="text" id="sujet" name="sujet" required placeholder="Sujet *">
+                        </div>
+
+                        <div class="form-field full-width">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Votre message ici"></textarea>
+                        </div>
+
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </section>
+            </div>
+
+            <section class="map-section">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.8353821789824!2d2.2889342757311844!3d48.8613494004994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe39df5463f%3A0xb358c25f43492e83!2s23%20Av.%20des%20Nations%20Unies%2C%2075016%20Paris!5e0!3m2!1sfr!2sfr!4v1730719418005!5m2!1sfr!2sfr"
+                    width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
 
-            <section class="contact-form-section">
-                <h2>Restons en contact</h2>
-                <form action="#" method="post">
-                    <label for="name">Votre nom *</label>
-                    <input type="text" id="name" name="name" required>
 
-                    <label for="email">Votre e-mail *</label>
-                    <input type="email" id="email" name="email" required>
+            <footer class="footer">
+                <section class="bad">
 
-                    <label for="phone">Votre numéro de téléphone *</label>
-                    <input type="tel" id="phone" name="phone" required>
-
-                    <label for="subject">Sujet *</label>
-                    <input type="text" id="subject" name="subject" required>
-
-                    <label for="message">Message *</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-
-                    <button type="submit">ENVOYER</button>
-                </form>
-            </section>
-        </section>
-        <section class="map-section">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.902155280022!2d2.287592815677735!3d48.86061167928771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdf3e04ab0b%3A0x216e1b3e9bf22de0!2sAv.%20des%20Nations%20Unies%2C%2075016%20Paris%2C%20France!5e0!3m2!1sfr!2sfr!4v1636033139827!5m2!1sfr!2sfr"
-                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </section>
-    </div>
-
-    <footer class="footer">
-        <section class="bad">
-
-            <section class="about">
-                <h4>À propos de notre hôtel</h4>
-                <p>Le seul hôtel 5 étoiles de Paris Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cupiditate
-                    neque debitis aliquid ametsunt et fugiat vero voluptates, in eos iure ab consequatur
-                    aspernatur
-                    commodi officiis sequi maxime corporis adipisci!
-                </p>
-            </section>
-            <section class="footer-contact">
-                <p>Contact</p>
-                <h7>Adresse : 23 avenue des Nations Unies, 75001 Paris</h7>
-                <p>Téléphone : 03 20 01 02 03</p>
-                <p>Email : info@ducsman.com</p>
-                <div class="social-icons">
-                    <a href="#">Facebook</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Instagram</a>
-                    <a href="#">Pinterest</a>
+                    <section class="about">
+                        <h4>À propos de notre hôtel</h4>
+                        <p>Le seul hôtel 5 étoiles de Paris Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Cupiditate
+                            neque debitis aliquid ametsunt et fugiat vero voluptates, in eos iure ab consequatur
+                            aspernatur
+                            commodi officiis sequi maxime corporis adipisci!
+                        </p>
+                    </section>
+                    <section class="footer-contact">
+                        <p>Contact</p>
+                        <h7>Adresse : 23 avenue des Nations Unies, 75001 Paris</h7>
+                        <p>Téléphone : 03 20 01 02 03</p>
+                        <p>Email : info@ducsman.com</p>
+                        <div class="social-icons">
+                            <a href="#">Facebook</a>
+                            <a href="#">Twitter</a>
+                            <a href="#">Instagram</a>
+                            <a href="#">Pinterest</a>
+                        </div>
+                    </section>
+                </section>
+                <div class="legal">
+                    <a href="#">Mentions légales</a> |
+                    <a href="#">Conditions Générales de Ventes</a> |
+                    <a href="#">Politique de confidentialité</a>
+                    <p>© Copyright 2023 - Ducsman Group</p>
                 </div>
-            </section>
-        </section>
-        <div class="legal">
-            <a href="#">Mentions légales</a> |
-            <a href="#">Conditions Générales de Ventes</a> |
-            <a href="#">Politique de confidentialité</a>
-            <p>© Copyright 2023 - Ducsman Group</p>
-        </div>
-    </footer>
+            </footer>
+    </div>
     </div>
 </body>
 
