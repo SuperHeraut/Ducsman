@@ -1,85 +1,90 @@
 footer {
-    margin-top: 40px;
-    margin-left: 20%;
-    background-color: $black3;
-    color: $greyletters;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+	margin-top: 40px;
+	margin-left: 20%;
+	background-color: $black3;
+	color: $greyletters;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 
-    .bad {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        max-width: 1200px;
-        margin-bottom: 20px;
-    }
+	.bad {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		max-width: 1200px;
+		margin-bottom: 20px;
+	}
 
-    .about,
-    .footer-contact {
-        flex: 1;
-        padding: 20px;
+	.about,
+	.footer-contact {
+		flex: 1;
+		padding: 20px;
 
-        h4 {
-            color: $whiteletters;
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
+		h4 {
+			color: $whiteletters;
+			font-size: 1.5em;
+			margin-bottom: 10px;
+		}
 
-        p,
-        h7 {
-            color: $greyletters;
-            line-height: 1.5;
-            font-size: 0.9em;
-        }
-    }
+		p,
+		h7 {
+			color: $greyletters;
+			line-height: 1.5;
+			font-size: 0.9em;
+		}
+	}
 
-    .about {
-        padding-right: 40px;
-        width: 100%;
-    }
+	.about {
+		padding-right: 40px;
+		width: 100%;
+	}
 
-    .footer-contact {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        max-width: 400px;
+	.footer-contact {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		max-width: 400px;
 
-        .social-icons {
-            margin-top: 15px;
-            display: flex;
-            gap: 15px;
+		.social-icons {
+			margin-top: 15px;
+			display: flex;
+			gap: 15px;
 
-            a {
-                color: $greyletters;
-                text-decoration: none;
-                transition: color 0.3s;
+			a {
+				color: $greyletters;
+				text-decoration: none;
+				transition: color 0.3s;
 
-                &:hover {
-                    color: $goldstars;
-                }
-            }
-        }
-    }
+				&:hover {
+					color: $goldstars;
+				}
+			}
+		}
+	}
 
-    .legal {
-        width: 100%;
-        text-align: center;
-        color: $greyletters;
-        padding: 2rem 0;
-        background-color: $black1;
-        font-family: "Barlow", sans-serif;
-        font-weight: 500;
-        font-style: normal;
+	.legal {
+		width: 100%;
+		text-align: center;
+		color: $greyletters;
+		padding: 2rem 0;
+		background-color: $black1;
+		font-family: "Barlow", sans-serif;
+		font-weight: 500;
+		font-style: normal;
 
-        a {
-            text-decoration: none;
-            margin: 0 5px;
+		a {
+			text-decoration: none;
+			margin: 0 5px;
 
-            &:hover {
-                color: $goldstars;
-            }
-        }
-    }
+			&:hover {
+				color: $goldletters;
+			}
+		}
+	}
+}
+#index {
+	footer {
+		margin-left: 0;
+	}
 }
