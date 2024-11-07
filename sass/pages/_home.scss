@@ -171,3 +171,9 @@ footer {
 		color: $greyletters;
 	}
 }
+.contact-info {
+	a[href="tel:0320010203"] {
+		font-size: 1.75rem;
+		color: $goldletters;
+	}
+}
