@@ -1,13 +1,13 @@
 footer {
     margin-top: 40px;
+    margin-left: 20%;
     padding: 20px;
-    background-color: $black2;
+    background-color: $black1;
     color: $greyletters;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    color: $black1;
 
     .bad {
         display: flex;
