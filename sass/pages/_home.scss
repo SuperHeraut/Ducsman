@@ -12,6 +12,9 @@
 .flexhor {
 	flex-wrap: wrap;
 }
+.whiteletters {
+	color: $whiteletters;
+}
 #presentation {
 	display: flex;
 	flex-direction: column;
