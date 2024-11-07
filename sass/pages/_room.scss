@@ -145,6 +145,8 @@ h3 {
         font-family: "Merriweather", serif;
         font-weight: 400;
         font-style: normal;
+        word-spacing: 0.5rem;
+        letter-spacing: 0.3rem;
     }
 
     .texte2 {
@@ -154,10 +156,8 @@ h3 {
         top: 55%; // Centre verticalement
         left: 60%; // Centre horizontalement
         transform: translate(-50%, -50%);
-        font-family: "Merriweather", serif;
-        font-weight: 300;
-        font-style: italic;
         letter-spacing: 0.5rem;
+        font-weight: 90;
 
     }
 }
@@ -191,4 +191,8 @@ button {
 
 .main {
     margin-left: 20%;
+}
+
+.stars {
+    color: $goldstars;
 }
