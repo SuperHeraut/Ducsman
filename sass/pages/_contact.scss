@@ -1,10 +1,13 @@
 .main-content {
-    margin-left: 20%;
     display: flex;
     flex-direction: column;
     background-color: #222;
     color: #ddd;
     padding-top: 40px;
+}
+
+.main-except-footer {
+    margin-left: 20%;
 }
 
 .flex-contact {
