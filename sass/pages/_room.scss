@@ -45,7 +45,8 @@
             color: gray;
 
             i {
-                color: gold;
+                color: $goldstars;
+                margin-right: 1rem;
             }
         }
     }
@@ -122,46 +123,46 @@ h3 {
         color: $goldstars;
     }
 
+    .texte {
+        background: none;
+        font-size: 60px;
+        font-style: italic;
+        position: absolute; // Positionne le texte en superposition
+        top: 35%; // Centre verticalement
+        left: 55%; // Centre horizontalement
+        transform: translate(-50%, -50%);
+        letter-spacing: 0.5rem;
+
+    }
+
+    .texte1 {
+        background: none;
+        font-size: 13px;
+        position: absolute; // Positionne le texte en superposition
+        top: 28%; // Centre verticalement
+        left: 55%; // Centre horizontalement
+        transform: translate(-50%, -50%);
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .texte2 {
+        background: none;
+        font-size: 60px;
+        position: absolute; // Positionne le texte en superposition
+        top: 45%; // Centre verticalement
+        left: 55%; // Centre horizontalement
+        transform: translate(-50%, -50%);
+        font-family: "Merriweather", serif;
+        font-weight: 300;
+        font-style: italic;
+        letter-spacing: 0.5rem;
+
+    }
 }
 
-.texte {
-    background: none;
-    font-size: 60px;
-    font-style: italic;
-    position: absolute; // Positionne le texte en superposition
-    top: 35%; // Centre verticalement
-    left: 55%; // Centre horizontalement
-    transform: translate(-50%, -50%);
-    font-family: "Sedan", serif;
-    font-weight: 400;
-    font-style: normal;
 
-}
-
-.texte1 {
-    background: none;
-    font-size: 13px;
-    position: absolute; // Positionne le texte en superposition
-    top: 28%; // Centre verticalement
-    left: 55%; // Centre horizontalement
-    transform: translate(-50%, -50%);
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.texte2 {
-    background: none;
-    font-size: 60px;
-    position: absolute; // Positionne le texte en superposition
-    top: 45%; // Centre verticalement
-    left: 55%; // Centre horizontalement
-    transform: translate(-50%, -50%);
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: italic;
-
-}
 
 .back-image {
     background-image: url('../img/rooms/4.jpg');
