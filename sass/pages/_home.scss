@@ -7,10 +7,14 @@ body{
 	}
 }
 aside{
-	width: 280px;
+	width: 20%;
 	height: 100vh;
 	float: left;
 	position: static;
+}
+main{
+	float: right;
+	width: 80%;
 }
 section{
 	width: calc(100% - 280px);
