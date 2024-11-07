@@ -2,7 +2,7 @@ footer {
     margin-top: 40px;
     margin-left: 20%;
     padding: 20px;
-    background-color: $black2;
+    background-color: $black3;
     color: $greyletters;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@ footer {
 
     .about {
         padding-right: 40px;
-        max-width: 600px;
+        width: 100%;
     }
 
     .footer-contact {
@@ -65,10 +65,13 @@ footer {
     }
 
     .legal {
+        width: 100%;
         text-align: center;
         color: $greyletters;
         font-size: 0.8em;
-        padding-top: 10px;
+        padding: 10px 0;
+        background-color: $black1;
+
 
         a {
             color: $greyletters;
