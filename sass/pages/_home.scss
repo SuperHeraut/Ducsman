@@ -1,36 +1,18 @@
-
-body{
-	width: 100%;
-	*{
-		background: none;
-	box-sizing: border-box;
-	}
-}
-aside{
-	width: 20%;
-	height: 100vh;
-	float: left;
-	position: static;
-	box-sizing: border-box;
-}
-main{
+main {
 	float: right;
 	width: 80%;
 	box-sizing: border-box;
 }
-section{
-	width: calc(100% - 280px);
-	padding: 5rem;
-}
-.flexhor, .fleximages{
+.flexhor,
+.fleximages {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 }
-.flexhor{
+.flexhor {
 	flex-wrap: wrap;
 }
-#presentation{
+#presentation {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -45,34 +27,34 @@ section{
 	background-size: cover;
 	background-color: transparent;
 
-	button{
+	button {
 		color: $whiteletters;
 		outline: none;
 		border: none;
 		@extend %uppercase;
 	}
 
-	h1{
+	h1 {
 		font-size: 3rem;
 	}
 }
 
-.fleximages{
+.fleximages {
 	display: flex;
 	flex-direction: column;
 	height: fit-content;
 	width: 50%;
 	flex-wrap: wrap;
-	img{
+	img {
 		width: 40%;
 	}
 }
 
-.lighterblack{
+.lighterblack {
 	background-color: $black3;
 }
 
-.button{
+.button {
 	width: fit-content;
 	padding: 1rem;
 	background: none;
@@ -82,122 +64,125 @@ section{
 	outline-style: solid;
 }
 
-.flexhor{
+.flexhor {
 	width: 100%;
 	box-sizing: border-box;
 
-	.half{
+	.half {
 		width: 50%;
 	}
 
-	.spaceven{
+	.spaceven {
 		justify-content: space-evenly;
 	}
 }
 
-#services{
+#services {
 	box-sizing: border-box;
-	div{
+	div {
 		width: 50%;
 		box-sizing: border-box;
 		margin: 0;
 		height: 450px;
-		img{
+		img {
 			height: 100%;
 			overflow: hidden;
-			
 		}
 	}
 }
 
-footer{
-	a{
+footer {
+	a {
 		color: $whiteletters;
 	}
 }
 
-.checkicon{
+.checkicon {
 	max-width: 2rem;
 	max-height: 2rem;
 }
 
-.third{
+.third {
 	display: flex;
 	width: 30%;
 	flex-direction: column;
 	text-align: left;
 }
 
-#emailto{
+#emailto {
 	text-decoration-line: underline;
 	text-decoration-color: $goldletters;
 	text-decoration-style: solid;
-	text-decoration-thickness: 2px; 
+	text-decoration-thickness: 2px;
+}
+.rooms {
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	.room {
+		width: 30%;
+	}
+	.room2 {
+		width: 45%;
+	}
 }
 
-.room{
-	width: 30%;
-}
-.room2{
-	width: 45%;
-}
-
-#junior{
+#junior {
 	background-image: url(../img/rooms/1.jpg);
 }
-#family{
+#family {
 	background-image: url(../img/rooms/2.jpg);
 }
-#double{
+#double {
 	background-image: url(../img/rooms/3.jpg);
 }
-#deluxe{
+#deluxe {
 	background-image: url(../img/rooms/4.jpg);
 }
-#superior{
+#superior {
 	background-image: url(../img/rooms/7.jpg);
 }
 
-.moreservices{
+.moreservices {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	h2{
+	h2 {
 		display: block;
 		width: 100%;
 	}
-	h4{
+	h4 {
 		font-family: Merriweather;
 	}
-	div{
+	div {
 		flex-direction: column;
 		width: 33%;
 		border: solid 1px #92929280;
 	}
-	img{
+	img {
 		max-width: 100px;
 		max-height: 100px;
 	}
-	p{
+	p {
 		color: $greyletters;
 	}
 }
-#aboutourhotel{
+#aboutourhotel {
 	width: 50%;
-	h4{
+	h4 {
 		font-family: Merriweather;
 		font-size: 1.5rem;
 	}
-	p{
+	p {
 		color: $greyletters;
 		width: 75%;
 	}
 }
-#contactus{
+#contactus {
 	width: 33%;
-	h4{
+	h4 {
 		font-family: Merriweather;
 		font-size: 1.5rem;
 	}
-
 }
