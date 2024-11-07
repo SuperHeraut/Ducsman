@@ -62,7 +62,8 @@
 			float: left;
 			padding-right: 0.5rem;
 		}
-		a {
+		a[href="tel:0320010203"] {
+			font-size: 1.75rem;
 			color: $goldletters;
 			text-decoration: none;
 		}

@@ -12,9 +12,6 @@
 .flexhor {
 	flex-wrap: wrap;
 }
-.whiteletters {
-	color: $whiteletters;
-}
 #presentation {
 	display: flex;
 	flex-direction: column;
@@ -185,11 +182,5 @@ footer {
 	}
 	p {
 		color: $greyletters;
-	}
-}
-.contact-info {
-	a[href="tel:0320010203"] {
-		font-size: 1.75rem;
-		color: $goldletters;
 	}
 }

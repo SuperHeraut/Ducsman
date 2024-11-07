@@ -255,3 +255,7 @@ body {
 .uppercase {
 	@extend %uppercase;
 }
+
+.whiteletters {
+	color: $whiteletters;
+}
