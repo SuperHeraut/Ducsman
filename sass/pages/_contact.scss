@@ -1,7 +1,3 @@
-.container {
-    display: flex;
-}
-
 .main-content {
     margin-left: 20%;
     display: flex;
@@ -15,6 +11,7 @@
 .flex-contact {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 40px;
     margin-bottom: 40px;
 
@@ -22,6 +19,7 @@
     .contact-form-section {
         flex: 1;
         min-width: 300px;
+        margin: 0;
     }
 
     .contact-info-section {
@@ -126,7 +124,7 @@
 }
 
 .map-section {
-    width: 150%;
+    width: 155%;
     margin: 20px 0;
     padding-left: 5px;
 
