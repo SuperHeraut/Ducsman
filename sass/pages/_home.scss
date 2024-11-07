@@ -11,10 +11,12 @@ aside{
 	height: 100vh;
 	float: left;
 	position: static;
+	box-sizing: border-box;
 }
 main{
 	float: right;
 	width: 80%;
+	box-sizing: border-box;
 }
 section{
 	width: calc(100% - 280px);
