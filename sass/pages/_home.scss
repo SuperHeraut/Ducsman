@@ -8,6 +8,8 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	padding: 2rem;
+	box-sizing: border-box;
 }
 .flexhor {
 	flex-wrap: wrap;
@@ -130,15 +132,36 @@ footer {
 	text-decoration-style: solid;
 	text-decoration-thickness: 2px;
 }
-#roomsandsuites {
+#roomsandsuites,
+#luxeexperience {
 	h2,
 	h3 {
 		margin: 1rem 2rem;
 	}
+	.stars {
+		margin: 1rem 2rem 0;
+		font-size: 2rem;
+	}
+	h3 {
+		font-family: "Barlow Condensed";
+		letter-spacing: 0.33rem;
+		@extend %uppercase;
+		padding: 0.5rem 0;
+		color: $goldletters;
+		font-size: 1.5rem;
+	}
+	h2 {
+		font-family: "Gilda Display";
+		font-size: 3rem;
+		padding: 0.5rem 0;
+	}
+}
+#luxeexperience {
 }
 #rooms {
 	display: flex;
 	width: 100%;
+	justify-content: space-between;
 	box-sizing: border-box;
 	flex-wrap: wrap;
 	.room {
@@ -159,13 +182,15 @@ footer {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
+		align-items: start;
 		position: relative;
 		padding: 20px;
 		box-sizing: border-box;
+		text-align: start;
 		a {
 			position: absolute;
 			top: 80px;
-			right: 0px;
+			right: -8px;
 			transform: rotate(270deg);
 			@extend %uppercase;
 			font-family: "Barlow condensed";
@@ -174,11 +199,18 @@ footer {
 			font-family: "Barlow Condensed";
 			letter-spacing: 0.2rem;
 			@extend %uppercase;
+			padding: 0.5rem 0;
 		}
 		h2 {
-			font-family: "Gilda Display";
 			font-size: 2rem;
 			padding: 0.5rem 0;
+			margin: 0;
+		}
+		hr {
+			color: $greyletters;
+			width: 4rem;
+			left: 0;
+			margin: 1rem 0;
 		}
 	}
 }
@@ -202,7 +234,8 @@ footer {
 .moreservices {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	padding: 2rem;
 	h2 {
 		display: block;
 		width: 100%;
@@ -211,13 +244,23 @@ footer {
 		font-family: Merriweather;
 	}
 	div {
+		padding: 2rem;
 		flex-direction: column;
-		width: 33%;
-		border: solid 1px #92929280;
-	}
-	img {
-		max-width: 100px;
-		max-height: 100px;
+		width: 32%;
+		box-sizing: border-box;
+		border: solid 1px #92929233;
+		margin: 1rem 0;
+		h4 {
+			font-size: 2.5rem;
+			padding: 0.5rem 0;
+		}
+		img {
+			width: 4rem;
+		}
+		p {
+			font-size: 1.5rem;
+			line-height: 3rem;
+		}
 	}
 	p {
 		color: $greyletters;
