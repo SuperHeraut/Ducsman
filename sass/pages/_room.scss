@@ -93,7 +93,7 @@ h3 {
 }
 
 .title {
-    color: $goldstars;
+    color: $goldletters;
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
@@ -126,7 +126,7 @@ h3 {
     .texte {
         background: none;
         font-size: 60px;
-        font-style: italic;
+
         position: absolute; // Positionne le texte en superposition
         top: 45%; // Centre verticalement
         left: 60%; // Centre horizontalement
