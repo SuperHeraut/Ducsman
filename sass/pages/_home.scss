@@ -53,15 +53,28 @@
 		font-size: 2rem;
 	}
 }
-
+#luxeexperience {
+	background-color: $black3;
+	p {
+		margin: 0 2rem 1rem;
+		color: $greyletters;
+	}
+}
 .fleximages {
 	display: flex;
-	flex-direction: column;
-	height: fit-content;
+	height: 100%;
 	width: 50%;
 	flex-wrap: wrap;
+	justify-content: space-between;
 	img {
 		width: 40%;
+		height: fit-content;
+		&:first-of-type {
+			align-self: flex-end;
+		}
+		&:last-of-type {
+			align-self: flex-start;
+		}
 	}
 }
 
@@ -95,6 +108,7 @@
 }
 
 #services {
+	padding: 4rem;
 	box-sizing: border-box;
 	div {
 		width: 50%;
@@ -134,6 +148,7 @@ footer {
 }
 #roomsandsuites,
 #luxeexperience {
+	padding: 2rem;
 	h2,
 	h3 {
 		margin: 1rem 2rem;
@@ -157,6 +172,7 @@ footer {
 	}
 }
 #luxeexperience {
+	height: 600px;
 }
 #rooms {
 	display: flex;
@@ -239,9 +255,6 @@ footer {
 	h2 {
 		display: block;
 		width: 100%;
-	}
-	h4 {
-		font-family: Merriweather;
 	}
 	div {
 		padding: 2rem;
