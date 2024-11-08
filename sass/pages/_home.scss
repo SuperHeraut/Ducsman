@@ -111,6 +111,13 @@
 }
 
 #services {
+	h3 {
+		font-size: 1rem;
+		color: $goldletters;
+		@extend %uppercase;
+		padding: 0.5rem;
+		letter-spacing: 0.25rem;
+	}
 	padding: 4rem;
 	box-sizing: border-box;
 	div {
