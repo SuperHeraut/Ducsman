@@ -8,40 +8,42 @@
     <link rel="stylesheet" href="sass/main.css">
     <link rel="stylesheet" href="css/flaticons.css">
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
-	 <link rel="preconnect" href="https://fonts.googleapis.com">
-	 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gilda+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gilda+Display&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-	<aside id="sidebar">
-		<div class="logo">
-			<p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
-			<h1 class="titre-sidebar">DUCSMAN</h1>
-			<p class="barlow-condensed-regular uppercase">
-				Dormez comme jamais
-			</p>
-		</div>
-		<nav class="uppercase barlow-condensed-regular">
-			<ul>
-				<li><a href="index.html">Accueil</a></li>
-				<li><a href="#">À Propos</a></li>
-				<li><a href="room.html">Chambres & Suites</a></li>
-				<li><a href="#">Restaurant</a></li>
-				<li><a href="#">Centre de Bien-Être</a></li>
-				<li><a href="#">Actualité</a></li>
-				<li><a href="#" class="active">Contact</a></li>
-			</ul>
-		</nav>
-		<div class="contact-info">
-			<i class="flaticon-call"></i>
-			<p class="barlow-regular">Informations & Réservations</p>
-			<p class="barlow-condensed-regular"><a href="tel:0320010203">03 20 01 02 03</a></p>
-		</div>
-	</aside>
+    <aside id="sidebar">
+        <div class="logo">
+            <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+            <h1 class="titre-sidebar">DUCSMAN</h1>
+            <p class="barlow-condensed-regular uppercase">
+                Dormez comme jamais
+            </p>
+        </div>
+        <nav class="uppercase barlow-condensed-regular">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#">À Propos</a></li>
+                <li><a href="room.html">Chambres & Suites</a></li>
+                <li><a href="#">Restaurant</a></li>
+                <li><a href="#">Centre de Bien-Être</a></li>
+                <li><a href="#">Actualité</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="contact-info">
+            <i class="flaticon-call"></i>
+            <p class="barlow-regular">Informations & Réservations</p>
+            <p class="barlow-condensed-regular"><a href="tel:0320010203">03 20 01 02 03</a></p>
+        </div>
+    </aside>
 
-        <main class="main-content">
-            <div class="main-except-footer">
+    <main class="main-content">
+        <div class="main-except-footer">
             <div class="flex-contact">
                 <section class="contact-info-section">
                     <h2>Ducsman</h2>
@@ -61,7 +63,7 @@
                         <i class="flaticon-envelope"></i>
                         <div>
                             <h3>E-mail</h3>
-                            <p><a href="mailto:info@ducsman-group.com">info@ducsman-group.com</a></p>
+                            <p id="lol"><a href="mailto:info@ducsman-group.com">info@ducsman-group.com</a></p>
                         </div>
                     </div>
 
@@ -78,28 +80,28 @@
                     <h2>Restons en contact</h2>
                     <form class="form-contact" action="/submit" method="post">
                         <div class="form-field">
-                            <label for="nom">Votre nom</label>
+                            <label for="nom"></label>
                             <input type="text" id="nom" name="nom" required placeholder="Votre nom *">
                         </div>
 
                         <div class="form-field">
-                            <label for="email">Votre e-mail</label>
+                            <label for="email"></label>
                             <input type="email" id="email" name="email" required placeholder="Votre e-mail *">
                         </div>
 
                         <div class="form-field">
-                            <label for="phone">Votre numéro de téléphone</label>
+                            <label for="phone"></label>
                             <input type="tel" id="phone" name="phone" required
                                 placeholder="Votre numéro de téléphone *">
                         </div>
 
                         <div class="form-field">
-                            <label for="sujet">Sujet</label>
+                            <label for="sujet"></label>
                             <input type="text" id="sujet" name="sujet" required placeholder="Sujet *">
                         </div>
 
                         <div class="form-field full-width">
-                            <label for="message">Message</label>
+                            <label for="message"></label>
                             <textarea id="message" name="message" rows="5" required
                                 placeholder="Votre message ici"></textarea>
                         </div>
@@ -115,56 +117,60 @@
                     width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
-            </div>  
+        </div>
 
-            <footer class="footer">
-                <div class="back-propos">
-                    <section class="bad">
-                        <section class="about">
-                            <h4>À propos de notre hôtel</h4>
-                            <p>Le seul hôtel 5 étoiles de Paris Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate neque debitis aliquid ametsunt et fugiat vero voluptates, in eos iure ab consequatur aspernatur commodi officiis sequi maxime corporis adipisci!</p>
-                        </section>
-                        <section class="footer-contact">
-						  
-                            <h4 class="gilda-display-regular">Contact</h4>
-                            <p>
-                                23 avenue des Nations Unies
-                                <br />
-                                75001 Paris
-                            </p>
-                            <div>
-                                <img src="" alt="" />
-                                <p class="phone">03 20 01 02 03</p>
-                            </div>
-                            <a href="mailto:#" id="emailto">info@ducsman.com</a>
-                                <div class="social-icons">
-                                    <a href="http://instagram.com">
-                                        <img src="./img/ig.svg" alt="IG" class="socialnetwork" />
-                                    </a>
-                                    <a href="http://x.com">
-                                        <img src="./img/x.svg" alt="X" class="socialnetwork" />
-                                    </a>
-                                    <a href="http://youtu.be">
-                                        <img src="./img/yt.svg" alt="YT" class="socialnetwork" />
-                                    </a>
-                                    <a href="http://facebook.com">
-                                        <img src="./img/fb.svg" alt="FB" class="socialnetwork" />
-                                    </a>
-                                    <a href="http://pinterest.com">
-                                        <img src="./img/pin.svg" alt="Pin" class="socialnetwork" />
-                                    </a>
-                                  </div>
-                        </section>
+        <footer class="footer">
+            <div class="back-propos">
+                <section class="bad">
+                    <section class="about">
+                        <h4>À propos de notre hôtel</h4>
+                        <p>Le seul hôtel 5 étoiles de Paris Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Cupiditate neque debitis aliquid ametsunt et fugiat vero voluptates, in eos iure ab
+                            consequatur aspernatur commodi officiis sequi maxime corporis adipisci!</p>
                     </section>
-                </div>
-                <div class="legal">
-                    <p>
-                    <a href="#" class="whiteletters">Mentions légales</a> - 
-                    <a href="#" class="whiteletters">Conditions Générales de Ventes</a> - 
-                    <a href="#" class="whiteletters">Politique de confidentialité</a> -  &copy; Copyright 2023 - Ducsman Group</p>
-                </div>
-            </footer>
-            
+                    <section class="footer-contact">
+
+                        <h4 class="gilda-display-regular">Contact</h4>
+                        <p>
+                            23 avenue des Nations Unies
+                            <br />
+                            75001 Paris
+                        </p>
+                        <div>
+                            <img src="" alt="" />
+                            <p class="phone">03 20 01 02 03</p>
+                        </div>
+                        <a href="mailto:#" id="emailto">info@ducsman.com</a>
+                        <div class="social-icons">
+                            <a href="http://instagram.com">
+                                <img src="./img/ig.svg" alt="IG" class="socialnetwork" />
+                            </a>
+                            <a href="http://x.com">
+                                <img src="./img/x.svg" alt="X" class="socialnetwork" />
+                            </a>
+                            <a href="http://youtu.be">
+                                <img src="./img/yt.svg" alt="YT" class="socialnetwork" />
+                            </a>
+                            <a href="http://facebook.com">
+                                <img src="./img/fb.svg" alt="FB" class="socialnetwork" />
+                            </a>
+                            <a href="http://pinterest.com">
+                                <img src="./img/pin.svg" alt="Pin" class="socialnetwork" />
+                            </a>
+                        </div>
+                    </section>
+                </section>
+            </div>
+            <div class="legal">
+                <p>
+                    <a href="#" class="whiteletters">Mentions légales</a> -
+                    <a href="#" class="whiteletters">Conditions Générales de Ventes</a> -
+                    <a href="#" class="whiteletters">Politique de confidentialité</a> - &copy; Copyright 2023 - Ducsman
+                    Group
+                </p>
+            </div>
+        </footer>
+
 </body>
 
 </html>
