@@ -115,8 +115,25 @@
 		font-size: 1rem;
 		color: $goldletters;
 		@extend %uppercase;
-		padding: 0.5rem;
+		padding: 0.5rem 0;
 		letter-spacing: 0.25rem;
+	}
+	h2 {
+		font-size: 2rem;
+		padding: 0.5rem 0;
+	}
+	p {
+		color: $greyletters;
+	}
+	.learnmore {
+		display: block;
+		@extend %uppercase;
+		letter-spacing: 0.25rem;
+		background-color: $goldletters;
+		color: $whiteletters;
+		padding: 1rem;
+		width: fit-content;
+		box-sizing: border-box;
 	}
 	padding: 4rem;
 	box-sizing: border-box;
