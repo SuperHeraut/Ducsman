@@ -172,6 +172,7 @@ footer {
 .checkicon {
 	max-width: 2rem;
 	max-height: 2rem;
+	float: left;
 }
 
 .third {
@@ -276,13 +277,43 @@ footer {
 		font-size: 2rem;
 		padding-bottom: 1rem;
 	}
-	.lighterblack {
-		padding: 1rem;
-		background-color: $black3;
+	h4 {
+		font-size: 1.5rem;
 	}
-
+	strong {
+		font-size: 2rem;
+		color: $goldletters;
+		line-height: 3rem;
+	}
+	i {
+		font-size: 2rem;
+		color: $goldletters;
+		float: left;
+		margin: 0.5rem 1rem 0 0;
+	}
+	.lighterblack {
+		padding: 3rem;
+		background-color: $black3;
+		box-sizing: border-box;
+	}
+	.flaticon-call {
+		font-size: 3rem;
+		float: left;
+	}
+	.phone {
+		font-size: 1.75rem;
+		color: $goldletters;
+		padding: 1rem 0;
+	}
 	p {
 		padding: 0.5rem 0;
+		line-height: 1.5rem;
+		color: $greyletters;
+	}
+	ul {
+		li {
+			padding: 0.25rem 0;
+		}
 	}
 }
 
@@ -307,9 +338,10 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding: 2rem;
+	padding: 4rem;
 	h2 {
 		display: block;
+		font-size: 2rem;
 		width: 100%;
 	}
 	div {
@@ -320,18 +352,23 @@ footer {
 		border: solid 1px #92929233;
 		margin: 1rem 0;
 		h4 {
-			font-size: 2.5rem;
+			font-size: 1.75rem;
 			padding: 0.5rem 0;
 		}
 		img {
 			width: 4rem;
 		}
 		p {
-			font-size: 1.5rem;
+			font-size: 1.25rem;
 			line-height: 3rem;
 		}
 	}
 	p {
 		color: $greyletters;
+	}
+}
+.about {
+	p {
+		width: 75%;
 	}
 }
