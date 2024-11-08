@@ -270,6 +270,21 @@ footer {
 		}
 	}
 }
+#options {
+	background-color: $black2;
+	h2 {
+		font-size: 2rem;
+		padding-bottom: 1rem;
+	}
+	.lighterblack {
+		padding: 1rem;
+		background-color: $black3;
+	}
+
+	p {
+		padding: 0.5rem 0;
+	}
+}
 
 #junior {
 	background-image: url(../img/rooms/1.jpg);
@@ -288,6 +303,7 @@ footer {
 }
 
 .moreservices {
+	background-color: $black2;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
