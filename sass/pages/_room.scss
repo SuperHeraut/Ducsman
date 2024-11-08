@@ -1,5 +1,5 @@
 body {
-    background-color: $black2;
+    background-color: $black3;
 }
 
 .image-room {
@@ -187,6 +187,10 @@ button {
     padding: 10px;
     color: white;
     width: 220px;
+}
+
+button:hover {
+    background-color: gray;
 }
 
 .main {
