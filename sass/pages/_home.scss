@@ -222,14 +222,13 @@ footer {
 	box-sizing: border-box;
 	flex-wrap: wrap;
 	.room {
-		min-width: 30%;
+		min-width: calc(100% / 3 - 1rem);
 	}
 	.room2 {
-		min-width: 45%;
+		min-width: calc(100% / 2 - 1rem);
 	}
 	.room,
 	.room2 {
-		max-width: 500px;
 		max-height: 600px;
 		min-height: 50vh;
 		margin-bottom: 2rem;
