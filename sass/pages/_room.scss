@@ -1,210 +1,199 @@
 body {
-    background-color: $black3;
+	background-color: $black3;
 }
 
 .image-room {
-    display: flex;
-    height: 60%;
-    width: 80%;
+	display: flex;
+	height: 60%;
+	width: 80%;
 }
 
 .text {
-    margin-left: 20%;
-    padding-left: 80px;
-    padding-top: 20px;
+	margin-left: 20%;
+	padding-left: 80px;
+	padding-top: 20px;
 
-    p {
-        color: gray;
-        line-height: 2;
-        font-family: "Barlow", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
+	p {
+		color: gray;
+		line-height: 2;
+		font-family: "Barlow", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+	}
 
-    .chambre {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding-left: 2rem;
-    }
+	.chambre {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding-left: 2rem;
+	}
 
-    .ducs {
-        margin-right: 150px;
+	.ducs {
+		margin-right: 150px;
 
-        .hotel {
-            line-height: 2;
+		.hotel {
+			line-height: 2;
+		}
 
-        }
+		.title {
+			color: $goldletters;
+			font-family: "Barlow", sans-serif;
+			font-weight: 100;
+			font-style: bold;
+		}
+	}
 
-        .title {
-            color: $goldletters;
-            font-family: "Barlow", sans-serif;
-            font-weight: 100;
-            font-style: bold;
-        }
-    }
+	.amen {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
 
-    .amen {
+		.liste-amen {
+			display: flex;
+			flex-direction: column;
+			gap: 2rem;
+			color: gray;
 
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-
-        .liste-amen {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-            color: gray;
-
-            i {
-                color: $goldstars;
-                margin-right: 1rem;
-            }
-        }
-    }
+			i {
+				color: $goldstars;
+				margin-right: 1rem;
+			}
+		}
+	}
 }
 
 .text2 {
-    padding-left: 2rem;
+	padding-left: 2rem;
 }
 
 .chek {
-    display: flex;
-    flex-direction: row;
-    padding-left: 2rem;
+	display: flex;
+	flex-direction: row;
+	padding-left: 2rem;
 }
 
 .chekin {
-    margin-right: 160px;
+	margin-right: 160px;
 
-    .check {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 1rem;
-        padding: 0.5rem 0;
-    }
+	.check {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 1rem;
+		padding: 0.5rem 0;
+	}
 
-    padding-bottom: 2rem;
+	padding-bottom: 2rem;
 }
 
 h1 {
-    font-size: 40px;
-    font-family: "Gilda Display", serif;
-    font-weight: 400;
-    font-style: normal;
+	font-size: 40px;
+	font-family: "Gilda Display", serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 h3 {
-
-    font-size: 25px;
-    font-family: "Gilda Display", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
+	font-size: 25px;
+	font-family: "Gilda Display", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
 }
-
-
-
 
 .text-image {
-    // Centrer parfaitement avec une transformation
-    color: white; // Couleur du texte
-    font-size: 20px; // Taille du texte
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-    background-color: #ffffff;
-    background: none;
-    padding: 0 50px;
+	// Centrer parfaitement avec une transformation
+	color: white; // Couleur du texte
+	font-size: 20px; // Taille du texte
+	font-weight: bold;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+	background-color: #ffffff;
+	background: none;
+	padding: 0 50px;
 
-    p {
-        color: white;
-    }
+	p {
+		color: white;
+	}
 
-    .star {
-        margin-bottom: 50px;
-        position: absolute; // Positionne le texte en superposition
-        top: 33%; // Centre verticalement
-        left: 60%; // Centre horizontalement
-        transform: translate(-50%, -50%);
-        color: $goldstars;
-    }
+	.star {
+		margin-bottom: 50px;
+		position: absolute; // Positionne le texte en superposition
+		top: 33%; // Centre verticalement
+		left: 60%; // Centre horizontalement
+		transform: translate(-50%, -50%);
+		color: $goldstars;
+	}
 
-    .texte {
-        background: none;
-        font-size: 60px;
+	.texte {
+		background: none;
+		font-size: 60px;
 
-        position: absolute; // Positionne le texte en superposition
-        top: 45%; // Centre verticalement
-        left: 60%; // Centre horizontalement
-        transform: translate(-50%, -50%);
-        letter-spacing: 0.5rem;
+		position: absolute; // Positionne le texte en superposition
+		top: 45%; // Centre verticalement
+		left: 60%; // Centre horizontalement
+		transform: translate(-50%, -50%);
+		letter-spacing: 0.5rem;
+	}
 
-    }
+	.texte1 {
+		background: none;
+		font-size: 13px;
+		position: absolute; // Positionne le texte en superposition
+		top: 38%; // Centre verticalement
+		left: 60%; // Centre horizontalement
+		transform: translate(-50%, -50%);
+		font-family: "Merriweather", serif;
+		font-weight: 400;
+		font-style: normal;
+		word-spacing: 0.5rem;
+		letter-spacing: 0.3rem;
+	}
 
-    .texte1 {
-        background: none;
-        font-size: 13px;
-        position: absolute; // Positionne le texte en superposition
-        top: 38%; // Centre verticalement
-        left: 60%; // Centre horizontalement
-        transform: translate(-50%, -50%);
-        font-family: "Merriweather", serif;
-        font-weight: 400;
-        font-style: normal;
-        word-spacing: 0.5rem;
-        letter-spacing: 0.3rem;
-    }
-
-    .texte2 {
-        background: none;
-        font-size: 60px;
-        position: absolute; // Positionne le texte en superposition
-        top: 55%; // Centre verticalement
-        left: 60%; // Centre horizontalement
-        transform: translate(-50%, -50%);
-        letter-spacing: 0.5rem;
-        font-weight: 90;
-
-    }
+	.texte2 {
+		background: none;
+		font-size: 60px;
+		position: absolute; // Positionne le texte en superposition
+		top: 55%; // Centre verticalement
+		left: 60%; // Centre horizontalement
+		transform: translate(-50%, -50%);
+		letter-spacing: 0.5rem;
+		font-weight: 90;
+	}
 }
 
-
-
 .back-image {
-    background-image: url('../img/rooms/4.jpg');
-    background-position: center;
-    width: 80%;
-    margin-left: 20%;
-    display: flex;
-    justify-content: end;
-    height: 900px;
+	background-image: url("../img/rooms/4.jpg");
+	background-position: center;
+	width: 80%;
+	margin-left: 20%;
+	display: flex;
+	justify-content: end;
+	height: 900px;
 }
 
 p {
-    font-family: "Roboto", serif;
-    font-weight: 400;
-    font-style: normal;
-
+	font-family: "Roboto", serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 button {
-    background-color: #3B3B3B;
-    border: none;
-    padding: 10px;
-    color: white;
-    width: 220px;
+	background-color: #3b3b3b;
+	border: none;
+	padding: 10px;
+	color: white;
+	width: 220px;
+	letter-spacing: 0.2rem;
 }
 
 button:hover {
-    background-color: gray;
+	background-color: gray;
 }
 
 .main {
-    margin-left: 20%;
-
+	margin-left: 20%;
 }
 
 .stars {
-    color: $goldstars;
+	color: $goldstars;
 }
